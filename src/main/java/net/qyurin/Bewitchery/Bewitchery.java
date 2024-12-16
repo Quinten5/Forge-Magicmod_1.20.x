@@ -22,6 +22,7 @@ public class Bewitchery
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
+
     public Bewitchery(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
